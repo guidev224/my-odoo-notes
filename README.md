@@ -144,7 +144,7 @@ env.cr.commit()
 
 * If you need just a tiny bit more flexibility in the concrete action to be called, look into the server actions that return a window action in turn. If you need complete flexibility on what you present, look into the client actions (ir.actions.client) which allow you to have a completely custom user interface. But only do so as last resort as you lose a lot of Odoo's convenient helpers when using them.
 
-* Do not added related field in abstract models (AbstractModel for new api), it won't work because the system will try too look up to that model to update the related field which is not possible since abstract models are not stored in the database
+* Do not add related field in abstract models (AbstractModel for new api), it won't work because the system will try too look up to that model in order to update the related field which is not possible since abstract models are not stored in the database.
 
 Sources
 -------
